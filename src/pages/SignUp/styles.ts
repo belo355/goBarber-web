@@ -31,13 +31,13 @@ export const Content = styled.div`
     }
 
     a {
-      color: #f4ede8;
+      color: #14ede8;
       display: block;
       text-decoration: none;
       transition: 0.2s;
 
       &:hover {
-        color: ${shade(0.2, '#F4EDE8')};
+        color: ${shade(0.2, '#14EDE8')};
       }
     }
   }
@@ -53,7 +53,7 @@ export const Content = styled.div`
     align-items: center;
 
     &:hover {
-      color: ${shade(0.2, '#F4EDE8')};
+      color: ${shade(0.2, '#f4EDE8')};
     }
 
     svg {
